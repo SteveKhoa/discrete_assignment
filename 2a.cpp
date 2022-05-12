@@ -49,23 +49,21 @@ bool morePrior(char _stack_top, char c)
 {
     if (_stack_top == '!')
     {
-        if (c == '+' || c == '>' || c == '&' || c == '|')
-            return true;
+        if (c == '+' || c == '>' || c == '&' || c == '|'){ return true; }
+        else { return false; }
     }
     else
         if (_stack_top == '+' || _stack_top == '&' || _stack_top == '|')
         {
-            if (c == '+' || c == '>' || c == '&' || c == '|')
-                return true;
+            if (c == '+' || c == '>' || c == '&' || c == '|'){ return true; }
+            else { return false; }
         }
         else
             if (_stack_top == '>')
             {
-                if (c == '>')
-                    return true;
+                if (c == '>'){ return true; }
+                else { return false; }
             }
-
-    return false;
 }
 
 char mapToClosedBracket(char c)
