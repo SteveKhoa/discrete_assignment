@@ -2,7 +2,7 @@
 # Discrete Mathematics Assignment 212
 
 **Assignment: Evaluating expression.**
-*Discrete Structures for Computing (CO1007)*
+*Discrete Structures for Computing (CO1007)*.
 Semester: 212 - Class: CC02 - Group: **7**
 
 
