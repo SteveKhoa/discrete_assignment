@@ -1,11 +1,20 @@
-# Group 7 - Discrete Mathematics Assignment 212
+# Discrete Mathematics Assignment 212
 
 **Assignment: Evaluating expression.**
 
-1. Le Tran Nguyen Khoa 
-2. Tran Gia Huy 
-3. Luong Le Long Vu
-4. Nguyen Huynh An
+<em>Discrete Structures for Computing (CO1007)<\em>
+  
+Semester: 212 - Class: CC02 - Group: **7**
+
+Group members:
+  
+1. Nguyen Huynh An - 2154018
+  
+2. Luong Le Long Vu - 2153980
+  
+3. Tran Gia Huy - 2152600
+  
+4. Le Tran Nguyen Khoa - 2152674
 
 -------------------------------------
 **Notes:**
