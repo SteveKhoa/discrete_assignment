@@ -670,7 +670,7 @@ bool morePrior_2(char _stack_top, char c)
 bool checkOperators_2(const string& s) {
     bool check = 1;
     for (unsigned int i = 0; i < s.size() - 1; i++) {
-        if (isOperator(s.at(i)) && isOperator(s.at(i + 1))) {
+        if (isOperator_2(s.at(i)) && isOperator_2(s.at(i + 1))) {
             if (s.at(i + 1) != '!') { check = 0; break; }
         }
     }
