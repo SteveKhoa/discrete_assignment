@@ -649,23 +649,21 @@ bool morePrior_2(char _stack_top, char c)
 {
     if (_stack_top == '!')
     {
-        if (c == '+' || c == '>' || c == '&' || c == '|')
-            return true;
+        if (c == '+' || c == '>' || c == '&' || c == '|'){ return true; }
+        else { return false; }
     }
     else
         if (_stack_top == '+' || _stack_top == '&' || _stack_top == '|')
         {
-            if (c == '+' || c == '>' || c == '&' || c == '|')
-                return true;
+            if (c == '+' || c == '>' || c == '&' || c == '|'){ return true; }
+            else { return false; }
         }
         else
             if (_stack_top == '>')
             {
-                if (c == '>')
-                    return true;
+                if (c == '>'){ return true; }
+                else { return false; }
             }
-
-    return false;
 }
 
 //Check validity
@@ -828,9 +826,9 @@ string to_pre_fix_2(string s)
                     if (isOperator_2(s.at(i)))
                     {
                         start_operand = 0;
-                        if (!operators.empty() && morePrior(operators.top(), s.at(i)))
+                        if (!operators.empty() && morePrior_2(operators.top(), s.at(i)))
                         {
-                            while (!operators.empty() && morePrior(operators.top(), s.at(i)))
+                            while (!operators.empty() && morePrior_2(operators.top(), s.at(i)))
                             {
                                 res += ';';
                                 res += operators.top();
@@ -917,9 +915,9 @@ string to_post_fix_2(string s)
                     if (isOperator_2(s.at(i)))
                     {
                         start_operand = 0;
-                        if (!operators.empty() && morePrior(operators.top(), s.at(i)))
+                        if (!operators.empty() && morePrior_2(operators.top(), s.at(i)))
                         {
-                            while (!operators.empty() && morePrior(operators.top(), s.at(i)))
+                            while (!operators.empty() && morePrior_2(operators.top(), s.at(i)))
                             {
                                 if (res != "") { res += ';'; }
                                 res += operators.top();
