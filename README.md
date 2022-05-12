@@ -3,15 +3,16 @@
 
 **Assignment: Evaluating expression.**
 *Discrete Structures for Computing (CO1007)*.
+
 Semester: 212 - Class: CC02 - Group: **7**
 
 
 Group members:
   
-  1. Nguyen Huynh An - 2154018
-  2. Luong Le Long Vu - 2153980
-  3. Tran Gia Huy - 2152600
-  4. Le Tran Nguyen Khoa - 2152674
+    1. Nguyen Huynh An - 2154018
+    2. Luong Le Long Vu - 2153980
+    3. Tran Gia Huy - 2152600
+    4. Le Tran Nguyen Khoa - 2152674
 
 -------------------------------------
 **Notes:**
